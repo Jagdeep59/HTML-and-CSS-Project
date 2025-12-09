@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="My_First_Function()">
+click me !</button>
+<p id="Irish"></p>
+
+<!-- Paragraph using a color name -->
+<p>
+  <font color="red">
+    <b>I am using Red Colour text and this is bold </b>.
+  </font>
+</p>
+
+  <font color="#0000FF">
+    This paragraph uses a hex code (#0000FF) to color the text blue </font>
+</p>
+
+<!-- Font size 2 -->
+<p><font size="2"><i>I am using red colour with font size 2 and Italic test </i></font></p>
+
+<!-- Font size 4 -->
+<p>
+  <font size="4"><u>I am using red colour with font size 4 Underline it</u>
+  </font>
+</p>
+
+<!-- Font size 6 -->
+<p>
+  <font size="6">I am using red colour with font size 6.</font>
+</p>
+
+<script>
+    function My_First_Function() {
+        var String = "Kiss me, I'am Irish!";
+        var result = String.fontcolor("green");
+        document.getElementById("Irish").innerHTML = result;
+    }
+</script>
+
+</body>
+</html>
