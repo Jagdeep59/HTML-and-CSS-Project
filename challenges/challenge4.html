@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge 5-4: Text Over Image</title>
+  <style>
+    .image-container {
+      position: relative;
+      text-align: center;
+      width: 80%;
+      max-width: 600px;
+      margin: 50px auto;
+    }
+
+    .image-container img {
+      width: 100%;
+      border-radius: 15px;
+      display: block;
+    }
+
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">Text Over Image Example</h2>
+
+  <div class="image-container">
+    <img src="../images/paris.jpeg" alt="Paris">
+    <div class="centered-text">Welcome to Paris</div>
+  </div>
+
+</body>
+</html>
